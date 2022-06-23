@@ -31,8 +31,7 @@ li {
     height: 100px;
     line-height: 100px;
     vertical-align: middle;
-    border: 1px solid black;
-    box-shadow: 3px 3px 3px grey;
+    border: 5px outset rgb(78, 174, 206);
     margin: 10px;
     background-color: rgb(19, 137, 178);
     border-radius: 5px;
@@ -46,12 +45,15 @@ li {
 
 .fizz {
     background-color: rgb(11, 214, 161);
+    border: 5px outset rgb(140, 212, 193);
 }
 
 .buzz {
     background-color: rgb(255, 209, 102);
+    border: 5px outset rgb(255, 225, 156);
 }
 
 .fizzbuzz {
     background-color: rgb(240, 70, 111);
+    border: 5px outset rgb(238, 120, 148);
 }
