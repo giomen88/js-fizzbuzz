@@ -1,0 +1,57 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generics */
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(8, 59, 76);
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px grey;
+    margin: 10px;
+    background-color: rgb(19, 137, 178);
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+.fizz {
+    background-color: rgb(11, 214, 161);
+}
+
+.buzz {
+    background-color: rgb(255, 209, 102);
+}
+
+.fizzbuzz {
+    background-color: rgb(240, 70, 111);
+}
